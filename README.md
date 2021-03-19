@@ -14,9 +14,9 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-dft)]()
-[![GitHub Issues](https://img.shields.io/github/issues/s3cret/Project-Name)](https://github.com/s3cret/alfred-imgur/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/s3cret/Project-Name)](https://github.com/s3cret/alfred-imgur/pulls)
-[![License](https://img.shields.io/github/license/s3cret/py-basic)](/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/s3cret/alfred-imgur)](https://github.com/s3cret/alfred-imgur/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/s3cret/alfred-imgur)](https://github.com/s3cret/alfred-imgur/pulls)
+[![License](https://img.shields.io/github/license/s3cret/alfred-imgur)](/LICENSE)
 
 </div>
 
@@ -33,7 +33,8 @@
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
 - [Upcomming](#upcomming)
-- [Contributing](../CONTRIBUTING.md)
+- [Contributing](#Contributing)
+- [Reference](#Reference)
 
 ## About
 

@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+.vscode/
+
+__pycache__/
+__init__.py
+*.py[cod]
+*$py.class
+
+key[0-9].json
+key.json
+*info.json
+album_id.py
+
+*test
+
+*.log
+db.sqlite3
+
+helloworld*
+test*.py
+test/
+
+# to do files
+
+TODO
+*.todo
+

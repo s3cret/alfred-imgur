@@ -1,8 +1,6 @@
 import datetime
 import json
 import requests
-import album_id
-
 from imgurpython import ImgurClient
 from os.path import dirname as dir
 from os.path import join
@@ -33,10 +31,11 @@ def get_key() -> dict:
     return data
 
 
-def save(info: dict):
+def save(info: dict, album: str = ""):
 
-    current_time = datetime.datetime.now().strftime("%G-%u-%V at %H:%M:%S")
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d at %H:%M:%S")
     filename = "uploaded/" + current_time + " info.json"
+    info["album"] = album
 
     with open(filename, "w+") as f:
         json.dump(info, f)

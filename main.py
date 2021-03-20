@@ -1,8 +1,9 @@
 import sys, os
 import pasteboard
 from imgurpython.helpers.error import ImgurClientError
-# sys.path.insert(0, os.path.abspath(os.path.join("./modules", "api")))
+
 sys.path.insert(0, "./modules/api")
+import album_id
 
 from util import *
 image_path = ""
@@ -48,5 +49,5 @@ else:
         print("ImgurClientError({}):\n".format(err.status_code), err.error_message, end=".", sep="")
         exit(1)
     
-save(response)
+save(response, config["album"])
 

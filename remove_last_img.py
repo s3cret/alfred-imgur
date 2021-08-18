@@ -25,6 +25,7 @@ res2 = i.album_remove_images(data["album"], data["id"])
 
 if res1 and res2:
     print("Successfully removed the last uploaded image.")
+    os.remove(os.path.join("uploaded", last_info))
     exit(0)
 else:
     print("Failed with the external reasons.")

@@ -29,7 +29,7 @@ except IndexError:
     pass
 
 config = {
-    "album": album_id.alfred,
+    "album": album_id.album_2020_08_22,
     # "album": album_id.hello_imgur,
     "description": description,
 }
